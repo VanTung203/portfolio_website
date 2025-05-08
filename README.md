@@ -58,6 +58,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - **Project Gallery**: Display of my previous work and projects.
 - **Contact Form**: Allows visitors to send messages directly from the website.
 
+## Deployment
+
+The website has been deployed on Netlify and can be accessed through the following link:
+
+[My Portfolio Website](https://my-vt-portfolio-web.netlify.app)
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
