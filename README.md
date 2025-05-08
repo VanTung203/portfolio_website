@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# My Portfolio Website
+
+This is a personal portfolio website built with React, showcasing my skills and projects as a web developer. It uses Tailwind CSS for styling and includes various features such as an interactive **About Me** section, **Contact Form**, and **Project Gallery**.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -37,7 +41,22 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Technologies Used
+
+- **React.js**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **React Router**: For handling page navigation.
+- **Node.js and Express**: For backend services (if applicable).
+- **MongoDB**: For database management (if applicable).
+
+## Features
+
+- **Responsive Layout**: Optimized for all screen sizes using Tailwind CSS.
+- **Interactive About Me Section**: Showcases personal information and professional skills.
+- **Project Gallery**: Display of my previous work and projects.
+- **Contact Form**: Allows visitors to send messages directly from the website.
 
 ## Learn More
 
