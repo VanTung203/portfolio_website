@@ -1,7 +1,13 @@
 // src/pages/Projects.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   const projects = [
     {
       title: 'Watch Shop Microservice',
@@ -29,10 +35,10 @@ function Projects() {
   return (
     <section id="projects" className="py-20 bg-gray-50 text-gray-800">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">Projects</h2>
+        <h2 className="text-4xl font-bold mb-8" data-aos="fade-up">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105" data-aos="fade-up" data-aos-delay={index * 200}>
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-sm text-gray-500 mb-2">{project.duration}</p>
               <p className="mb-4">{project.description}</p>
