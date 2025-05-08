@@ -1,8 +1,17 @@
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+
 function App() {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      <h1 className="text-3xl font-bold">Chào mừng đến với Portfolio!</h1>
-      <p className="mt-2">Đây là một ví dụ sử dụng TailwindCSS trong React.</p>
+    <div>
+      <Header />
+      <Home />
+      <About />
+      <Footer />
     </div>
   );
 }
